@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: sans-serif; /* Choose your preferred font */
+    background-color: #e7ecef; /* Choose your background color */
+  }
+  
+  /* Center the content horizontally and vertically */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  /* Style for the main container */
+  main {
+    text-align: center;
+  }
+
+  p {
+    color: #8b8c89;
+    font-size: 22px;
+  }
+  .promo {
+    max-width: 80%;
+    margin: 0 auto;
+  }
