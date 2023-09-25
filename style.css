@@ -25,15 +25,17 @@ body {
   }
   /* Style the navigation bar */
   .navbar {
-      background-color: #333;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-  }
-  .navbar ul {
-      margin: 0;
-      padding: 10px;
-  }
+    display: flex;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 10px;
+}
   .navbar li {
       margin-right: 20px;
   }
