@@ -1,15 +1,11 @@
 body {
     margin: 0;
-    font-family: sans-serif; /* Choose your preferred font */
-    background-color: #e7ecef; /* Choose your background color */
-  }
-  
-  /* Center the content horizontally and vertically */
-  body {
+    font-family: sans-serif;
+    background-color: #e7ecef; 
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: column;
   }
   
   /* Style for the main container */
@@ -21,6 +17,38 @@ body {
     color: #8b8c89;
     font-size: 22px;
   }
+  /* Style for the main container end */
+  ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+  /* Style the navigation bar */
+  .navbar {
+      background-color: #333;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+  }
+  .navbar ul {
+      margin: 0;
+      padding: 10px;
+  }
+  .navbar li {
+      margin-right: 20px;
+  }
+  .navbar a {
+      text-decoration: none;
+      color: #fff;
+  }
+  /* Style the logo */
+  .navbar .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+      padding: 5px;
+  }
+  /* Style for navigation bar end */
   .promo {
     max-width: 80%;
     margin: 0 auto;
