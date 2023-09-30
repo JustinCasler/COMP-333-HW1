@@ -55,3 +55,39 @@ body {
     max-width: 80%;
     margin: 0 auto;
   }
+  /* Style for main image */
+  .img {
+    width: 30%; 
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Style for image container */
+  .image-container {
+    display: flex;
+    justify-content: space-between; /* Adjust this to change the spacing between images */
+    flex-wrap: wrap; /* Allow images to wrap to the next line if necessary */
+  }
+
+  .image-box {
+    max-width: 33%; 
+    height: 100%; 
+    overflow: hidden; /* Crop images that exceed the fixed height */
+    text-align: center; /* Center the text within the container */
+    position: relative; /* Position the description relative to the image */
+    
+  }
+
+  .image-box img {
+      width: 100%; /* Make the image fill the container width */
+      height: 100%; /* Maintain aspect ratio */
+  }
+
+  .description {
+      position: absolute; /* Position the description relative to the image-box */
+      top: 0; /* Position it at the top of the image-box */
+      
+      background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background for better readability */
+      color: white;
+      padding: 5px;
+  }
