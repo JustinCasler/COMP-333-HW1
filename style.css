@@ -30,12 +30,12 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-}
-.navbar ul {
-    display: flex;
-    margin: 0px;
-    padding: 10px;
-}
+  }
+  .navbar ul {
+      display: flex;
+      margin: 0px;
+      padding: 10px;
+  }
   .navbar li {
       margin-right: 20px;
   }
@@ -56,10 +56,9 @@ body {
     margin: 0 auto;
   }
   /* Style for main image */
-  .img {
-    width: 30%; 
-    display: block;
-    margin: 0 auto;
+  .main-img {
+    width: 50%; 
+    height: 50%;
   }
   
   /* Style for image container */
@@ -75,7 +74,6 @@ body {
     overflow: hidden; /* Crop images that exceed the fixed height */
     text-align: center; /* Center the text within the container */
     position: relative; /* Position the description relative to the image */
-    
   }
 
   .image-box img {
