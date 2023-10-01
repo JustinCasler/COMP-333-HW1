@@ -51,17 +51,29 @@ body {
       padding: 5px;
   }
   /* Style for navigation bar end */
+
+  /* Style for text */
   .promo {
     max-width: 80%;
     margin: 0 auto;
   }
-  /* Style for main image */
+
+  .categories {
+    padding-top: 80px; 
+    padding-bottom: 40px; 
+    max-width: 60%; 
+    margin: auto;
+    color: black; 
+    font-size: 40px;
+  }
+  /* Style for text */
+
+  /* Style for images */
   .main-img {
     width: 50%; 
     height: 50%;
   }
   
-  /* Style for image container */
   .image-container {
     display: flex;
     justify-content: space-between; /* Adjust this to change the spacing between images */
@@ -89,3 +101,4 @@ body {
       color: white;
       padding: 5px;
   }
+  /* Style for image container end */
