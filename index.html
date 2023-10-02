@@ -8,68 +8,76 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 <body>
-    <main>
+  <main>
       <!-- NAVBAR -->
-      <div class="navbar">
-        <div class="logo">PlaylistPulse</div>
+    <div class="navbar">
+      <div class="logo">PlaylistPulse</div>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Features">Features</a></li>
+          <li><a href="#Pricing">Pricing</a></li>
+          <li><a href="#Reviews">Reviews</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
+    </div>
       <!-- NAVBAR END -->
-
+    <section id="Home">
       <h1 style="padding-top: 80px; padding-bottom: 40px; max-width: 60%; margin: 0 auto;">
-          <span style="color: black; font-size: 40px;"> Enter, rate, and review your favorite songs with</span>
-          <span style="color: #274c77; font-size: 40px ;">PlaylistPulse</span>
+        <span style="color: black; font-size: 40px;"> Enter, rate, and review your favorite songs with</span>
+        <span style="color: #274c77; font-size: 40px ;">PlaylistPulse</span>
       </h1>
-      <p class="promo"> At PlaylistPulse, we understand that music is deeply 
-        personal, and that's why we give you the power to voice your opinions and share your unique musical 
-        taste with the world. 
-      </p>
-      <br>
-      <!-- Inserting images -->
-      <img class= "main-img" src="./images/good_times_with_bad_music_1050x700.jpg.webp" alt="Headphones logo" />
-      <p class="promo"> We're not a streaming service like <a href="https://open.spotify.com/">spotify</a> or <a href="https://music.apple.com/us/browse"> apple music</a>.
-        We're here to help you disover new songs and find people who share your love in music.
-      </p>
+    </section>
+    <p class="promo"> At PlaylistPulse, we understand that music is deeply 
+      personal, and that's why we give you the power to voice your opinions and share your unique musical 
+      taste with the world. 
+    </p>
+    <br>
+    <!-- Inserting images -->
+    <img class= "main-img" src="./images/good_times_with_bad_music_1050x700.jpg.webp" alt="Headphones logo" />
+    <p class="promo"> We're not a streaming service like <a href="https://open.spotify.com/">spotify</a> or <a href="https://music.apple.com/us/browse"> apple music</a>.
+      We're here to help you disover new songs and find people who share your love in music.
+    </p>
+    <section id="Features">
       <h2 class="categories">
         <span> Our Features</span>
       </h2>
 
       <div class="image-container">
         <div class="image-box">
-            <img src="./images/Top_songs.jpeg" alt="Song Top Charts" />
-            <div class="description">Weekly Top Charts</div>
+          <img src="./images/Top_songs.jpeg" alt="Song Top Charts" />
+          <div class="description">Weekly Top Charts</div>
         </div>
         <div class="image-box">
-            <img src="./images/share-youtube-music.jpg" alt="People Sharing Music" />
-            <div class="description">Share Your Music</div>
+          <img src="./images/share-youtube-music.jpg" alt="People Sharing Music" />
+          <div class="description">Share Your Music</div>
         </div>
         <div class="image-box">
-            <img src="./images/Graphic-Rating-Scale-1000x553-1.webp" alt="Rating Graphic" />
-            <div class="description">Rate New Songs</div>
+          <img src="./images/Graphic-Rating-Scale-1000x553-1.webp" alt="Rating Graphic" />
+          <div class="description">Rate New Songs</div>
         </div>
-    </div>
-      <br>
-    <div>
-      <h2 class="categories">
-        <span> Pricing </span>
-      </h2>
-      <p class="promo"> We believe in the power of <a href="https://www.health.harvard.edu/blog/can-music-improve-our-health-and-quality-of-life-202207252786">music</a>. So while our site is still in development our waitlist will be posted soon where you can sign up
-        for early access! The base service will be free to use, and a preium membership will be offered at $5 a month.
-      </p>
-    </div>
-    </main>
+      </div>
+    </section>
     <br>
-    <h2 class="categories"> Reviews</h1>
-    <!-- Add iframe -->
-    <iframe src="./reviews.html" frameborder="0" width="100%" height="400"></iframe>
+    <section id="Pricing">
+      <div>
+        <h2 class="categories">
+          <span> Pricing </span>
+        </h2>
+        <p class="promo"> We believe in the power of <a href="https://www.health.harvard.edu/blog/can-music-improve-our-health-and-quality-of-life-202207252786">music</a>. So while our site is still in development our waitlist will be posted soon where you can sign up
+          for early access! The base service will be free to use, and a preium membership will be offered at $5 a month.
+        </p>
+      </div>
+    </section>
+    <br>
+    <section id="Reviews">
+      <h2 class="categories"> Reviews</h2>
+      <!-- Add iframe -->
+      <iframe style="padding-bottom: 80px"src="./reviews.html" frameborder="0" width="80%" height="400"></iframe>
+  </section>
     <footer>
       This site was designed and published as part of the <a href="https://sebastianzimmeck.de/teaching/comp333/comp333.html">COMP
         333 Software Engineering</a> class at Wesleyan University. This is a training exercise. 
     </footer>
+  </main>
 <body>
