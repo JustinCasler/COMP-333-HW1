@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-color: #e7ecef; 
+    background-color: #fbfcfc; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ body {
   }
 
   p {
-    color: #8b8c89;
+    color: #333333;
     font-size: 22px;
   }
   /* Style for the main container end */
@@ -30,6 +30,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    flex-shrink: 1;
   }
   .navbar ul {
       display: flex;
