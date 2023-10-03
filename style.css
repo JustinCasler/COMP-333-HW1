@@ -53,12 +53,12 @@ body {
   /* Style for navigation bar end */
 
   /* Style for text */
-  .promo {
+  #promo {
     max-width: 80%;
     margin: 0 auto;
   }
 
-  .categories {
+  #categories {
     padding-top: 80px; 
     padding-bottom: 40px; 
     max-width: 60%; 
