@@ -8,3 +8,4 @@ Files:
     3. reviews.html: HTML file for reviews page (to be accessed by IFrame in index.html)
     4. style.css: style sheet for index.html and reviews.html
 How to run the code: Open with Live Server extension in VSCode
+Citations: ChatGPT was utilized to create style.css and reviews.css
